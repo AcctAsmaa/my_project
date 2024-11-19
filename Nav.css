@@ -1,0 +1,91 @@
+/* الهيكل العام للـ Nav */
+.nav-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .nav-top {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .nav-logo img {
+    width: 100px;
+  }
+  
+  .nav-location, .nav-account, .nav-orders, .nav-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .nav-location span, .nav-account span, .nav-orders span {
+    font-size: 12px;
+    color: #ddd;
+  }
+  
+  .nav-location strong, .nav-account strong, .nav-orders strong {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .nav-search {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 20px;
+  }
+  
+  .nav-search-dropdown {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-right: none;
+    background-color: #f3f3f3;
+  }
+  
+  .nav-search-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .nav-search-btn {
+    background-color: #febd69;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* الجزء السفلي من الـ Nav */
+  .nav-bottom {
+    background-color: #37475a;
+    color: white;
+    padding: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
